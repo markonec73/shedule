@@ -1,0 +1,446 @@
+
+element.style {
+    background-color: white;
+}
+.banner .company {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: large;
+    padding: 0.5rem 2rem 0.5rem 0;
+    margin-right: 2rem;
+    white-space: nowrap;
+}
+
+.banner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    background-color: #1976D2;
+    color: #ffffff;
+    border-color: #f9fbfc;
+    border-width: 0px;
+    border-style: solid;
+  }
+  body {
+    font-size: small;
+    margin: 0;
+    padding: 0;
+    color: #0B263B;
+    font-family: Arial, 'Arial Unicode MS', Verdana, sans-serif;
+    background-color: #f9fbfc;
+}
+.banner nav.container {
+    width: 50%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: stretch;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0.75em 0;
+}
+
+user agent stylesheet
+nav {
+    display: block;
+}
+.banner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    background-color: #1976D2;
+    color: #ffffff;
+    border-color: #f9fbfc;
+    border-width: 0px;
+    border-style: solid;
+}
+
+.banner a:visited {
+    color: #ffffff;
+}
+.banner a:link, nav.logon input {
+    color: #ffffff;
+}
+.banner a:link, .banner a:visited, .banner a:hover {
+    text-decoration: none;
+    font-weight: normal;
+}
+.banner nav a, nav.logon input, nav.logon span {
+    display: inline-block;
+    text-align: center;
+    padding: 0.3rem 1rem;
+    line-height: 1.5em;
+    border-radius: 0.8em;
+}
+a:visited {
+    color: #0B263B;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:link {
+    color: #0B263B;
+    text-decoration: none;
+    font-weight: bold;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.banner nav a, nav.logon input, nav.logon span {
+    display: inline-block;
+    text-align: center;
+    padding: 0.3rem 1rem;
+    line-height: 1.5em;
+    border-radius: 0.8em;
+}
+nav.logon input {
+    background: none;
+    border: none;
+}
+.banner a:link, nav.logon input {
+    color: #ffffff;
+}
+input, textarea {
+    box-sizing: border-box;
+}
+user agent stylesheet
+input[type="submit" i] {
+    -webkit-appearance: push-button;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+user agent stylesheet
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: -internal-light-dark-color(white, black);
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+.view_container {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    width: 100%;
+    overflow-x: auto;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+nav.main_calendar > nav:first-child {
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+nav.main_calendar > nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 1;
+    flex: 1;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+user agent stylesheet
+nav {
+    display: block;
+}
+
+h2.date, span.timezone {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.1em;
+}
+h2 {
+    font-size: large;
+    clear: both;
+}
+user agent stylesheet
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.index :not(.simple) + .contents {
+    display: -ms-flexbox;
+    display: flex;
+}
+.contents {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 3rem;
+}
+.contents, .banner {
+    padding: 0 1.5rem;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.dwm_main thead tr:first-child th:first-child {
+    border-top-left-radius: 5px;
+}
+.dwm_main thead tr:last-child th {
+    border-bottom: 1px solid #1976D2;
+}
+.dwm_main thead th:first-child {
+    z-index: 610;
+}
+.dwm_main thead th.first_last, .dwm_main tfoot th.first_last {
+    width: 1px;
+}
+.dwm_main th:first-child {
+    left: 0;
+}
+.dwm_main thead th, .dwm_main th:first-child {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 600;
+}
+.dwm_main th:first-child, .dwm_main td:first-child {
+    border-left: 0 solid #dddddd;
+}
+.dwm_main thead th {
+    top: 0;
+}
+.dwm_main thead th, .dwm_main tfoot th {
+    font-size: small;
+    font-weight: normal;
+    vertical-align: top;
+    padding: 0.2em;
+    color: #0B263B;
+    background-color: #ffffff;
+    background-clip: padding-box;
+}
+.dwm_main th, .dwm_main td {
+    border-right: 1px solid #dddddd;
+}
+.dwm_main th, .dwm_main td {
+    min-height: 1.5em;
+    line-height: 1.5em;
+}
+th {
+    white-space: nowrap;
+    vertical-align: middle;
+}
+td, th {
+    vertical-align: top;
+}
+user agent stylesheet
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+table.dwm_main {
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 100%;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-color: #dddddd;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 5px;
+}
+user agent stylesheet
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+.dwm_main th a:visited {
+    color: #0B263B;
+}
+.dwm_main th a:link {
+    color: #0B263B;
+}
+tbody th a:visited {
+    color: #0B263B;
+}
+tbody th a:link {
+    color: #0B263B;
+}
+.dwm_main th a {
+    text-decoration: none;
+    font-weight: normal;
+}
+.dwm_main tbody a {
+    padding: 0.2em;
+    box-sizing: border-box;
+}
+.dwm_main a, .dwm_main .booked span.saving {
+    display: block;
+    height: 100%;
+    width: 100%;
+    min-height: inherit;
+    word-break: break-all;
+    word-break: break-word;
+    hyphens: auto;
+}
+a:visited {
+    color: #0B263B;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:link {
+    color: #0B263B;
+    text-decoration: none;
+    font-weight: bold;
+}
+tbody th a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: normal;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.dwm_main tbody th {
+    text-align: left;
+}
+.dwm_main th, .dwm_main td {
+    min-height: 1.5em;
+    line-height: 1.5em;
+}
+th {
+    white-space: nowrap;
+    vertical-align: middle;
+}
+user agent stylesheet
+th {
+    font-weight: bold;
+    text-align: -internal-center;
+}
+table.dwm_main {
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 100%;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-color: #dddddd;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 5px;
+}
+user agent stylesheet
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+nav.view a:first-child, nav.arrow a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+nav a.selected, nav.view a:hover, nav.view a:focus, nav.arrow a:hover, nav.arrow a:focus {
+    background: #1976D2;
+    box-shadow: inset 1px 1px darkblue;
+    color: #ffffff;
+    text-decoration: none;
+}
+nav.view a {
+    padding: 0.2em 0.5em;
+}
+nav.view a, nav.arrow a {
+    background: linear-gradient(#eeeeee, #cccccc);
+    border-right: thin solid #f9fbfc;
+    cursor: pointer;
+    line-height: 1.8em;
+    font-weight: normal;
+    text-align: center;
+}
+a:visited {
+    color: #0B263B;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:link {
+    color: #0B263B;
+    text-decoration: none;
+    font-weight: bold;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+nav.main_calendar > nav:last-child {
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+nav.main_calendar > nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 1;
+    flex: 1;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+user agent stylesheet
+nav {
+    display: block;
+}
